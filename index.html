@@ -5,10 +5,13 @@
 <title>Medlie - Smart Classroom</title>
 
 <script>
+
+
+    
     var k = 0;
     var o = 0;
     function lampBrainstorm() {
-        var url = "http://192.168.43.102/api/XCiTOVETWF9Gjxj8v6LxkR4ZroBO7iFseJMqEd92/lights/3/state";
+        var url = "http://192.168.43.102/api/ujyJJmQ3CXMUCx5nOQFS2vD5xXXZyXhGVVmZCU2t/lights/3/state";
         var data = {};
         data.on = true;
         data.bri = 254;
@@ -201,8 +204,8 @@
 </head>
 
 <body>
-    <input id="Turn on" type="button" value="Turn on" onclick="mic(); lampOn();" />
-    <input id="Turn off" type="button" value="Turn off" onclick="lampOff();" />
+    <input id="Turn on" type="button" value="Turn on" onclick="mic(); lampNull();" />
+    <input id="Turn off" type="button" value="Turn off" onclick="lampBrainstorm();" />
     
     
 </body>
