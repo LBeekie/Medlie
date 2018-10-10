@@ -1,0 +1,22 @@
+{
+    "personalities": [
+        {
+            "id":       1,
+            "name":     "happy",
+            "speeches": [
+                        {"stop": "/stop.mp3"},
+                        {"silence": "/silence.mp3"}
+                        ]
+        },
+        {
+            "id":       2,
+            "name":     "sad",
+            "speeches": [
+                        {"stop": "/stop.mp3"},
+                        {"silence": "/silence.mp3"}
+                        ]
+        }
+    ]
+    
+    
+}
