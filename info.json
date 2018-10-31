@@ -1,19 +1,44 @@
 {
     "personalities": [
         {
-            "id":       1,
-            "name":     "happy",
+            "id":       0,
+            "name":     "boos",
             "speeches": [
-                        {"stop": "/stop.mp3"},
-                        {"silence": "/silence.mp3"}
+                        {"audio": "opnames/Boos -  hou nu allemaal je bek.mp3"},
+                        {"audio": "opnames/Boos - tering het is niet zo moeilijk om in stilte te werken.mp3"}
+                        ]
+        },
+        {
+            "id":       1,
+            "name":     "druk",
+            "speeches": [
+                        {"audio": "opnames/Druk - heerlijk al die gezelligheid.mp3"},
+                        {"audio": "opnames/Druk - oh wat een creativiteit.mp3"}
                         ]
         },
         {
             "id":       2,
-            "name":     "sad",
+            "name":     "irritatie",
             "speeches": [
-                        {"stop": "/stop.mp3"},
-                        {"silence": "/silence.mp3"}
+                        {"audio": "opnames/Irritatie - ik probeer te slapen.mp3"},
+                        {"audio": "opnames/Irritatie - ssht ik probeer me te concentreren.mp3"}
+                        ]
+        },
+        {
+            "id":      3,
+            "name":     "verdrietig",
+            "speeches": [
+                        {"audio": "opnames/Verdrietig - ik wil gewoon rust.mp3"},
+                        {"audio": "opnames/Verdrietig - kunnen jullie heel even jullie mond houden.mp3"},
+                        {"audio": "opnames/Verdrietig - waarom luistert er niemand naar mij"}
+                        ]
+        },
+        {
+            "id":       4,
+            "name":     "vrolijk",
+            "speeches": [
+                        {"audio": "opnames/Vrolijk -  wat zijn we toch weer plezant aan het werk.mp3"},
+                        {"audio": "opnames/Vrolijk - wat word het vandaag weer dolletjes.mp3"}
                         ]
         }
     ]
