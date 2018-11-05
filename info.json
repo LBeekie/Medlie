@@ -6,7 +6,8 @@
             "speeches": [
                         {"audio": "opnames/Boos -  hou nu allemaal je bek.mp3"},
                         {"audio": "opnames/Boos - tering het is niet zo moeilijk om in stilte te werken.mp3"}
-                        ]
+                        ],
+            "mood": "boos.png"
         },
         {
             "id":       1,
@@ -14,7 +15,8 @@
             "speeches": [
                         {"audio": "opnames/Druk - heerlijk al die gezelligheid.mp3"},
                         {"audio": "opnames/Druk - oh wat een creativiteit.mp3"}
-                        ]
+                        ],
+            "mood": "overactief.png"
         },
         {
             "id":       2,
@@ -22,7 +24,8 @@
             "speeches": [
                         {"audio": "opnames/Irritatie - ik probeer te slapen.mp3"},
                         {"audio": "opnames/Irritatie - ssht ik probeer me te concentreren.mp3"}
-                        ]
+                        ],
+            "mood": "geirriteerd.png"
         },
         {
             "id":      3,
@@ -31,7 +34,8 @@
                         {"audio": "opnames/Verdrietig - ik wil gewoon rust.mp3"},
                         {"audio": "opnames/Verdrietig - kunnen jullie heel even jullie mond houden.mp3"},
                         {"audio": "opnames/Verdrietig - waarom luistert er niemand naar mij"}
-                        ]
+                        ],
+            "mood": "verdrietig.png"
         },
         {
             "id":       4,
@@ -39,9 +43,8 @@
             "speeches": [
                         {"audio": "opnames/Vrolijk -  wat zijn we toch weer plezant aan het werk.mp3"},
                         {"audio": "opnames/Vrolijk - wat word het vandaag weer dolletjes.mp3"}
-                        ]
+                        ],
+            "mood": "blij.png"
         }
     ]
-    
-    
 }

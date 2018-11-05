@@ -19,8 +19,8 @@
 </script>    
 </head>
 
-<body onLoad="mic()">
-    <!--<div id="modalWrap">
+<body>
+    <div id="modalWrap">
         <div id="modalContent">
             <form action="javascript:mic(); modal(); personality();">
                 <input type="checkbox" onClick="toggle(this)" value="0">Toggle all<br>
@@ -33,7 +33,7 @@
                 <input type="checkbox" name="personality" value="4"> Focused<br>
             </form>
         </div>
-    </div>-->
+    </div>
     <div id="mainWrap">
         <div id="square">
             <div id="timeday">
@@ -43,10 +43,8 @@
             <div id="text">
                 <h1 id="news">Om 14:00 is er een workshop Git</h1>
             </div>
-            <div id="weather">
-                .
-                <div id="cloud"></div>
-                <div id="wText"></div>
+            <div id="kees">
+                <img src="kees/gefocussed.png">
             </div>
         </div>
         

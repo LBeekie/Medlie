@@ -206,7 +206,9 @@ function createAudioMeter(audioContext,clipLevel,averaging,clipLag) {
                 var randomElement = mArray[randomIndex];
                 var rndm = getRndInt(min, max);
                 var mp3 = json.personalities[randomElement].speeches[rndm].audio;
+                var png = json.personalities[randomElement].mood;
                 console.log(mp3);
+                console.log(png);
                 var audio = new Audio(mp3);
                     audio.play();
                     isPlaying = true;

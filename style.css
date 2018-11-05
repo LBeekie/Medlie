@@ -100,11 +100,14 @@ body, html {
     font-size: 25px;
 }
 
-#weather {
+#kees {
     margin: auto;
-    height: 10%;
+    height: 35%;
     width: 30%;
-    background-color: red;
+}
+
+#kees > img {
+    max-height: 100%;
 }
 
 #cloud {
