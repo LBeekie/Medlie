@@ -142,7 +142,7 @@ function createAudioMeter(audioContext,clipLevel,averaging,clipLag) {
                 var _avg = sum/vArray.length;
                 var avg = _avg.toFixed(3);
                 //alert (avg);
-                //console.log(avg);
+                console.log(avg);
                 if(avg <= 0.15) {
                     if (isPlaying === false) {
                         var xmlhttp = new XMLHttpRequest();
@@ -207,8 +207,12 @@ function createAudioMeter(audioContext,clipLevel,averaging,clipLag) {
                 var rndm = getRndInt(min, max);
                 var mp3 = json.personalities[randomElement].speeches[rndm].audio;
                 var png = json.personalities[randomElement].mood;
+                var back = json.personalities[randomElement].background;
                 console.log(mp3);
                 console.log(png);
+                console.log(back);
+                document.getElementById("imgKees").src = "kees/" + png;
+                document.getElementById("mainWrap").style.backgroundImage = "url('background/" + back + "')";
                 var audio = new Audio(mp3);
                     audio.play();
                     isPlaying = true;

@@ -44,7 +44,7 @@
                 <h1 id="news">Om 14:00 is er een workshop Git</h1>
             </div>
             <div id="kees">
-                <img src="kees/gefocussed.png">
+                <img id="imgKees" src="kees/gefocussed.png">
             </div>
         </div>
         

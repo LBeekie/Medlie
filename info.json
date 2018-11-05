@@ -7,7 +7,8 @@
                         {"audio": "opnames/Boos -  hou nu allemaal je bek.mp3"},
                         {"audio": "opnames/Boos - tering het is niet zo moeilijk om in stilte te werken.mp3"}
                         ],
-            "mood": "boos.png"
+            "mood": "boos.png",
+            "background": "red.jpg"
         },
         {
             "id":       1,
@@ -16,7 +17,8 @@
                         {"audio": "opnames/Druk - heerlijk al die gezelligheid.mp3"},
                         {"audio": "opnames/Druk - oh wat een creativiteit.mp3"}
                         ],
-            "mood": "overactief.png"
+            "mood": "overactief.png",
+            "background": "green.jpg"
         },
         {
             "id":       2,
@@ -25,7 +27,8 @@
                         {"audio": "opnames/Irritatie - ik probeer te slapen.mp3"},
                         {"audio": "opnames/Irritatie - ssht ik probeer me te concentreren.mp3"}
                         ],
-            "mood": "geirriteerd.png"
+            "mood": "geirriteerd.png",
+            "background": "orange.jpg"
         },
         {
             "id":      3,
@@ -35,7 +38,8 @@
                         {"audio": "opnames/Verdrietig - kunnen jullie heel even jullie mond houden.mp3"},
                         {"audio": "opnames/Verdrietig - waarom luistert er niemand naar mij"}
                         ],
-            "mood": "verdrietig.png"
+            "mood": "verdrietig.png",
+            "background": "blue.jpg"
         },
         {
             "id":       4,
@@ -44,7 +48,8 @@
                         {"audio": "opnames/Vrolijk -  wat zijn we toch weer plezant aan het werk.mp3"},
                         {"audio": "opnames/Vrolijk - wat word het vandaag weer dolletjes.mp3"}
                         ],
-            "mood": "blij.png"
+            "mood": "blij.png",
+            "background": "yellow.jpg"
         }
     ]
 }
